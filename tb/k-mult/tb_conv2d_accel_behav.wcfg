@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_conv2d_accel_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_conv2d_accel" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="434.482 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,113.104 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/tb_conv2d_accel/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/wr_ready" type="logic">
+      <obj_property name="ElementShortName">wr_ready</obj_property>
+      <obj_property name="ObjectShortName">wr_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/rd_valid" type="logic">
+      <obj_property name="ElementShortName">rd_valid</obj_property>
+      <obj_property name="ObjectShortName">rd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/read_val" type="array">
+      <obj_property name="ElementShortName">read_val[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_val[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/status" type="array">
+      <obj_property name="ElementShortName">status[7:0]</obj_property>
+      <obj_property name="ObjectShortName">status[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/input_rd_data" type="array">
+      <obj_property name="ElementShortName">input_rd_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">input_rd_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/kernel_rd_data" type="array">
+      <obj_property name="ElementShortName">kernel_rd_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">kernel_rd_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/output_wr_en" type="logic">
+      <obj_property name="ElementShortName">output_wr_en</obj_property>
+      <obj_property name="ObjectShortName">output_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/acc" type="array">
+      <obj_property name="ElementShortName">acc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_conv2d_accel/dut/engine/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+</wave_config>
