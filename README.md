@@ -1,5 +1,5 @@
 # CNN Convolution Accelerator - Team Project
-Target: ZCU104 (XCZU7EV-2FFVC1156)
+Target: ZCU104 (XCZU7EV-2FFVC1156) - Synthesis only
 ## Project Overview
 
 Convolutional Neural Networks (CNNs) are the backbone of modern image recognition. The key operation is 2D convolution: sliding a small filter (kernel) over an input image and computing weighted sums. This operation is computationally expensive, requiring millions of multiply-accumulate (MAC) operations. This project aims to design a dedicated hardware accelerator on an FPGA to perform this operation efficiently, verified against a custom Python-based golden reference. This project was completed by a team of four members.
