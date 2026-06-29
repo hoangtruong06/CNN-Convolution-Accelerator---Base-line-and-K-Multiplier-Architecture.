@@ -3,6 +3,10 @@ Target: ZCU104 (XCZU7EV-2FFVC1156) - Synthesis only
 ## Project Overview
 
 Convolutional Neural Networks (CNNs) are the backbone of modern image recognition. The key operation is 2D convolution: sliding a small filter (kernel) over an input image and computing weighted sums. This operation is computationally expensive, requiring millions of multiply-accumulate (MAC) operations. This project aims to design a dedicated hardware accelerator on an FPGA to perform this operation efficiently, verified against a custom Python-based golden reference. This project was completed by a team of four members.
+- Vu Hoang Lan: Designed system architecture and FSM state machine. Do the final report
+- Nguyen Khac Nhat Nam: Developed the custom Python 2D convolution, PyTorch MNIST weight extraction, 8-bit quantization, and hex file generation.
+- Nguyen Gia Huy: Build testbench for both cases
+- Truong Van Viet Hoang (Me): Coded the core Verilog FSM, simple_sram, conv_engine, and the memory-mapped top-level IP wrapper/CSR decoding.
 ## Project Goals
 - Understand 2D convolution and its role in CNNs
 - Implement 2D convolution in Python from scratch (no library convolution functions)
