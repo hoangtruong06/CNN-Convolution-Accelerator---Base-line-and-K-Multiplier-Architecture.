@@ -44,6 +44,9 @@ Designed the `conv2d_accel.v` wrapper to provide a memory-mapped interface, allo
 ## Block Diagram
 <img width="1287" height="706" alt="image" src="https://github.com/user-attachments/assets/5ea788b2-c275-4f31-99c8-d3b3ec55e89e" />
 
+## Convolution Engine FSM State Diagram
+<img width="947" height="402" alt="image" src="https://github.com/user-attachments/assets/e996c566-0dae-4987-85a3-ab8c87ac255a" />
+
 ## Performance Evaluation: Baseline vs. K-Multiplier Architecture
 
 The transition from a Baseline Serial MAC to a Partially Parallel MAC (K-Multiplier) architecture demonstrates a classic **area-time trade-off** in hardware design for CNN convolution. The table below highlights the drastic reduction in execution time achieved at the cost of higher logic utilization.
